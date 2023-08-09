@@ -10,8 +10,14 @@ color: #fff;
 .add-form{
 margin-top:20px;
 }
+@media(min-width: 300px) and (max-width: 768px){
+.add-form{
+    flex-direction: column;
+    height: 14em;
+    justify-content: space-evenly;
+}
+}
 
 .add-form input{
-width:350px;
 margin-right:20px;
 }
