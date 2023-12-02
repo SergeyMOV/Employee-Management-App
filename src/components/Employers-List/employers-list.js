@@ -6,7 +6,7 @@ const EmployersList=({data})=>{
 const elements=data.map((items) =>{
 const {id,...Rest} = items;
 return(
-<EmployersListItem key={id} {...Rest}/>
+<EmployersListItem key={id} {...Rest} ondelete ={()=>console.log("Deleted")}/>
 )
 })
 
