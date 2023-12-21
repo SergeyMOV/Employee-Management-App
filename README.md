@@ -4,7 +4,7 @@
 
 # Description
 
-This Program aims to simplify the management of employee data in the company: With its help, you can control the number of employees, their salaries, remove employees or add new employees.
+This program is designed to streamline the management of employee data within the company. It allows for the control of employee numbers, the management of salary information, and the addition or removal of employees. The intuitive interface and comprehensive features contribute to reducing administrative overhead and increasing efficiency in handling employee information.
 
 
 ## Available Scripts
