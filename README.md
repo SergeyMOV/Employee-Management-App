@@ -1,6 +1,7 @@
 # Employee-Management-Application
 
-<img width="60%" height="60%" alt="App-Foto" src="">
+![Employee-Management-App](https://github.com/SergeyMOV/Employee-Management-App/assets/114944804/130c48c1-be98-43df-a8c1-7d105b109468)
+
 
 
 
