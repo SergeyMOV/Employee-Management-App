@@ -2,7 +2,9 @@
 
 ![Employee-Management-App](https://github.com/SergeyMOV/Employee-Management-App/assets/114944804/130c48c1-be98-43df-a8c1-7d105b109468)
 
+# Description
 
+This Program aims to simplify the management of employee data in the company: With its help, you can control the number of employees, their salaries, remove employees or add new employees.
 
 
 ## Available Scripts
