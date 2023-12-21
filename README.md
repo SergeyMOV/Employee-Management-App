@@ -1,6 +1,6 @@
 # Employee-Management-Application
 
-<img width="60%" height="60%" alt="Bildschirmfoto 2023-01-10 um 12 43 35" src="">
+<img width="60%" height="60%" alt="App-Foto" src="">
 
 
 
