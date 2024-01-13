@@ -19,7 +19,7 @@ this.state = {
     {name:"Max.C", salary:"3000€", increase: false, id:3}
 
 ],
-term: "J"
+term: ""
 }
 this.maxId=4;
 }
