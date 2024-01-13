@@ -18,7 +18,8 @@ this.state = {
     {name:"Edward.S", salary:"1500€", increase: true, id:2},
     {name:"Max.C", salary:"3000€", increase: false, id:3}
 
-]
+],
+term: "J"
 }
 this.maxId=4;
 }
@@ -47,18 +48,36 @@ addItem = (name, salary) => {
   });
 };
 
+searchEmp = (items,term) => {
+if(term.length === 0){
+return items;
+}
+return items.filter(item =>{
+return item.name.indexOf(term)> -1; 
+})
+}
+
+onUpdateSearch = (term) => {
+ this.setState({term: term}); 
+}
+
 render(){
+  const {data, term} = this.state;
+  const employees = this.state.data.length;
+  const increased = this.state.data.filter(item => item.increase).length;
+  const visibleData = this.searchEmp(data, term);
   return (
     <div className="App">
-    <Appinfo/>
+    <Appinfo employees={employees} increased={increased}/>
     <div className="search-panel">
-    <SearchPanel/>
+    <SearchPanel onUpdateSearch={this.onUpdateSearch}/>
     <AppFilter/>
     </div>
-    <EmployersList data={this.state.data} onDelete={this.deleteItem}/>
+    <EmployersList data={visibleData} onDelete={this.deleteItem}/>
     <EmployersAddForm onAdd ={this.addItem}/>
     </div>
   );
+
 }
 }
 export default App;
